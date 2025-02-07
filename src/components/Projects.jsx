@@ -40,7 +40,7 @@ const Projects = () => {
             >
               <div
                 key={project.id}
-                className="bg-white shadow-xl rounded-lg overflow-hidden "
+                className="bg-white shadow-xl rounded-lg overflow-hidden flex flex-col h-full justify-between"
               >
                 <img
                   src={project.image}
@@ -54,7 +54,9 @@ const Projects = () => {
 
                   <button
                     onClick={() => setSelectedProject(project)}
-                    className="mt-4  py-1    text-[#1B4332] transition duration-200 font-semibold text-xl flex items-center gap-4 border-b-2 border-[#1B4332] hover:bg-[#1B4332] hover:text-white hover:px-4"
+                    className="text-[#02995d] 
+             border-[#02995d] md:text-xl font-semibold px-1 px-5 py-2 rounded-lg hover:bg-[#02995d] border-l-[#02995d] border-l-[5px] hover:text-white transition duration-200 shadow shadow-[#02995d] animate__fadeInUp animate__animated animate__delay-2s  animate__slower flex items-center gap-5 mt-10
+             "
                   >
                     View More <FaArrowRight />
                   </button>
@@ -84,6 +86,28 @@ const Projects = () => {
                   Live Demo
                 </Link>
               </div>
+              <div className="mt-4">
+                <Link
+                  to={selectedProject.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline mr-2 text-[#2F6A4F] border-[#2F6A4F] hover:bg-[#2F6A4F] hover:text-white"
+                >
+                  Githu Repo
+                </Link>
+              </div>
+              <p className="text-gray-600 mt-2">
+                {" "}
+                <span className="font-bold">Challenges: </span>
+                {selectedProject.challenges}
+              </p>
+              <p className="text-gray-600 mt-2">
+                {" "}
+                <span className="font-bold">
+                  Potential improvements :{" "}
+                </span>{" "}
+                {selectedProject.futurePlans}
+              </p>
               <button
                 onClick={() => setSelectedProject(null)}
                 className="mt-4 px-4 py-2 bg-[#E8F5E9] text-[#2F6A4F] rounded-lg hover:bg-[#C8E6C9] transition duration-200"

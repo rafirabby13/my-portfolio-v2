@@ -1,39 +1,50 @@
 [
-    {
-      "id": 1,
-      "name": "Rafi's Kitchen - Recipe Sharing Platform",
-      "image": "https://i.ibb.co.com/KXyydD2/Whats-App-Image-2025-01-05-at-03-37-20-4b52b550.jpg",
-      "stack": "React, Firebase, Tailwind CSS, MongoDB",
-      "description": "A recipe-sharing platform with user authentication, interactive UI, and secure data management.",
-      "liveLink": "https://rafis-kitchen.surge.sh/",
-      "details": "This project focused on creating a seamless experience for sharing and browsing recipes. Challenges included integrating Firebase for user authentication and database management. Future plans involve adding a meal planner and personalized recipe suggestions."
-    },
-    {
-      "id": 2,
-      "name": "Athlete Zone - Fitness Tracking App",
-      "image": "https://i.ibb.co.com/6g7Tv6L/Whats-App-Image-2025-01-05-at-03-36-17-c8a48760.jpg",
-      "stack": "React JS, Node.js, MongoDB",
-      "description": "A fitness tracking app that helps users track their workouts and progress in a structured way.",
-      "liveLink": "https://athlete-zone-f7a74.web.app/",
-      "details": "Developed a fitness tracker with features for logging workouts and tracking goals. Challenges included implementing efficient data handling with MongoDB. Future updates will include data visualization for progress and push notifications for reminders."
-    },
-    {
-      "id": 3,
-      "name": "Gadget Heaven - E-Commerce Website",
-      "image": "https://i.ibb.co.com/r70nmky/Whats-App-Image-2025-01-05-at-03-36-57-3dc2f7a7.jpg",
-      "stack": "React, Tailwind CSS, Firebase",
-      "description": "A sleek and responsive e-commerce website for browsing and purchasing gadgets.",
-      "liveLink": "https://ph-assignment-08-gadget-heaven.netlify.app/",
-      "details": "Designed and implemented an intuitive interface for gadget browsing and purchasing. Challenges included managing responsive layouts and integrating Firebase. Plans include adding customer reviews and product comparison features."
-    },
-    {
-      "id": 4,
-      "name": "Online Tutor Booking Platform",
-      "image": "https://i.ibb.co.com/FmxbxQv/Whats-App-Image-2025-01-05-at-03-38-55-c928f0a7.jpg",
-      "stack": "React, Tailwind CSS, Firebase",
-      "description": "A platform for booking tutors online with personalized options for students.",
-      "liveLink": "https://online-tutor-booking.web.app/",
-      "details": "Built a platform to connect students with tutors efficiently. Faced challenges with scheduling and booking logic. Future improvements include integrating video conferencing and a rating system for tutors."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "MediMart",
+    "image": "https://i.ibb.co.com/9mkyJr5y/Whats-App-Image-2025-02-05-at-10-50-38-42cb7ad5.jpg",
+    "stack": "React, Firebase, Tailwind CSS, MongoDB",
+    "description": "A recipe-sharing platform with user authentication, interactive UI, and secure data management.",
+    "liveLink": "https://multi-vendor-medicine-selling.web.app/",
+    "details": "A dynamic multi-vendor online marketplace for medicines, enabling pharmacies and sellers to list their products while customers can conveniently browse, compare, and purchase medications.",
+    "github": "https://github.com/rafirabby13/multi-vendor-medicine-seller-client?tab=readme-ov-file",
+    "challenges": "Faced issues in implementing real-time updates for product availability and integrating secure payment methods. Handling different user roles dynamically was also a challenge.",
+    "futurePlans": "Planning to integrate AI-driven medicine recommendations, implement an order tracking system, and enhance security for payments."
+  },
+  {
+    "id": 2,
+    "name": "Athlete Zone - Fitness Tracking App",
+    "image": "https://i.ibb.co.com/6g7Tv6L/Whats-App-Image-2025-01-05-at-03-36-17-c8a48760.jpg",
+    "stack": "React JS, Node.js, MongoDB",
+    "description": "A fitness tracking app that helps users track their workouts and progress in a structured way.",
+    "liveLink": "https://athlete-zone-f7a74.web.app/",
+    "details": "Developed a fitness tracker with features for logging workouts and tracking goals. Challenges included implementing efficient data handling with MongoDB.",
+    "github": "https://github.com/rafirabby13/athlete-zone",
+    "challenges": "Faced difficulties in efficiently storing and retrieving workout data for individual users. Also had to optimize database queries for better performance.",
+    "futurePlans": "Future updates will include data visualization for progress tracking, push notifications for workout reminders, and a social feature for users to share their achievements."
+  },
+  {
+    "id": 3,
+    "name": "Gadget Heaven - E-Commerce Website",
+    "image": "https://i.ibb.co.com/r70nmky/Whats-App-Image-2025-01-05-at-03-36-57-3dc2f7a7.jpg",
+    "stack": "React, Tailwind CSS, Firebase",
+    "description": "A sleek and responsive e-commerce website for browsing and purchasing gadgets.",
+    "liveLink": "https://ph-assignment-08-gadget-heaven.netlify.app/",
+    "details": "Designed and implemented an intuitive interface for gadget browsing and purchasing.",
+    "github": "https://github.com/rafirabby13/gadget-heaven",
+    "challenges": "Faced challenges in managing responsive layouts across different devices and integrating Firebase authentication smoothly.",
+    "futurePlans": "Plans include adding customer reviews, implementing a product comparison feature, and integrating AI-powered product recommendations."
+  },
+  {
+    "id": 4,
+    "name": "Online Tutor Booking Platform",
+    "image": "https://i.ibb.co.com/FmxbxQv/Whats-App-Image-2025-01-05-at-03-38-55-c928f0a7.jpg",
+    "stack": "React, Tailwind CSS, Firebase",
+    "description": "A platform for booking tutors online with personalized options for students.",
+    "liveLink": "https://online-tutor-booking.web.app/",
+    "details": "Built a platform to connect students with tutors efficiently.",
+    "github": "https://github.com/rafirabby13/tutor-bridge",
+    "challenges": "Faced challenges in implementing real-time scheduling, ensuring availability synchronization between tutors and students, and handling multiple bookings effectively.",
+    "futurePlans": "Future improvements include integrating video conferencing for seamless online sessions and implementing a rating system for tutors to enhance trust and credibility."
+  }
+]

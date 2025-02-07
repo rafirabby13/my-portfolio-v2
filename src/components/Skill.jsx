@@ -6,6 +6,7 @@ import img from "../assets/icons8-skill-100.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
+import Marquee from "react-fast-marquee";
 const Skill = () => {
   const [skills, setSkills] = useState([]);
   useEffect(() => {
@@ -28,7 +29,7 @@ const Skill = () => {
             My Skills
           </h2>
         </div>
-        <Swiper
+        {/* <Swiper
           slidesPerView={3}
           spaceBetween={10}
           autoplay={{
@@ -41,21 +42,21 @@ const Skill = () => {
 
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
-        >
+        > */}
+          <Marquee className="flex">
           {skills.map((skill, index) => (
-            <SwiperSlide
-              key={index}
-              className="bg-white shadow-lg rounded-lg py-10 lg:px-20  hover:bg-[#E8F5E9] transition duration-300 ease-in-out "
-            >
-              <div className="lg:h-[400px]">
+           
+              <div className=" lg:h-[350px] border-2 mr-5
+              " key={index}>
                 <img className="h-20 md:h-64 w-full" src={skill.image} alt="" />
                 <p className="lg:text-2xl text-center py-10 font-semibold text-gray-700 hidden md:flex justify-center">
                   {skill.skill}
                 </p>
               </div>
-            </SwiperSlide>
+             
           ))}
-        </Swiper>
+          </Marquee>
+        {/* </Swiper> */}
       </div>
     </div>
   );

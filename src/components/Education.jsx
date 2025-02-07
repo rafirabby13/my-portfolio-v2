@@ -30,7 +30,7 @@ const Education = () => {
           {educationList.map((edu, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-blue-500"
+              className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-[#02995d]"
             >
               <h3 className="text-xl font-semibold text-gray-700">
                 {edu.degree}
