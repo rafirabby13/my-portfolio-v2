@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             download={true}
-            href="resume.pdf"
+            href="Resume_Of_Rafi_Ahmed.pdf"
             className="text-[#02995d] 
              border-[#02995d] md:text-xl font-semibold px-1 md:px-5 py-2 rounded-lg hover:bg-[#02995d] border-l-[#02995d] border-l-[5px] hover:text-white transition duration-200 shadow shadow-[#02995d] animate__fadeInUp animate__animated animate__delay-2s  animate__slower "
           >
