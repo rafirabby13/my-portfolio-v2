@@ -1,0 +1,47 @@
+[
+    {
+      "skill": "HTML5",
+      "image": "https://i.ibb.co/D9gmvYW/icons8-html5-480.png"
+    },
+    {
+      "skill": "CSS3",
+      "image": "https://i.ibb.co/mRzfVtT/icons8-css3-500.png"
+    },
+    {
+      "skill": "Tailwind CSS",
+      "image": "https://i.ibb.co.com/WGhwPgn/icons8-tailwind-css-480.png"
+    },
+    {
+      "skill": "JavaScript (Vanilla JS)",
+      "image": "https://i.ibb.co/J3KbTjz/icons8-javascript-240.png"
+    },
+    {
+      "skill": "React JS",
+      "image": "https://i.ibb.co/kMYDTWf/icons8-react-js-480.png"
+    },
+    {
+      "skill": "Firebase",
+      "image": "https://i.ibb.co/hW21nmp/icons8-firebase-a-google-s-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-96.png"
+    },
+    {
+      "skill": "MongoDB",
+      "image": "https://i.ibb.co/kSzqgCX/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png"
+    },
+    {
+      "skill": "Git",
+      "image": "https://i.ibb.co/ZMJ4BWp/icons8-git-480.png"
+    },
+    {
+      "skill": "GitHub",
+      "image": "https://i.ibb.co/BtM3RF3/icons8-github-400.png"
+    },
+    {
+      "skill": "Responsive Web Design",
+      "image": "https://i.ibb.co/1L7Rhq9/icons8-responsive-web-design-500.png"
+    },
+    {
+      "skill": "Version Control",
+      "image": "https://i.ibb.co/yqHbXjb/icons8-version-control-64.png"
+    }
+  ]
+  
