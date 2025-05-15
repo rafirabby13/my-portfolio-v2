@@ -12,7 +12,7 @@
       "image": "https://i.ibb.co.com/WGhwPgn/icons8-tailwind-css-480.png"
     },
     {
-      "skill": "JavaScript (Vanilla JS)",
+      "skill": "JavaScript ",
       "image": "https://i.ibb.co/J3KbTjz/icons8-javascript-240.png"
     },
     {
@@ -36,12 +36,21 @@
       "image": "https://i.ibb.co/BtM3RF3/icons8-github-400.png"
     },
     {
-      "skill": "Responsive Web Design",
+      "skill": "Responsiveness",
       "image": "https://i.ibb.co/1L7Rhq9/icons8-responsive-web-design-500.png"
     },
     {
       "skill": "Version Control",
       "image": "https://i.ibb.co/yqHbXjb/icons8-version-control-64.png"
+    }
+    ,
+    {
+      "skill": "Next.js",
+      "image": "https://i.ibb.co/Y44xxv5Q/nextjs.jpg"
+    },
+    {
+      "skill": "TypeScript",
+      "image": "https://i.ibb.co/ycDbXHWW/typescript.png"
     }
   ]
   

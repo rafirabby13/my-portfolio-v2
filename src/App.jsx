@@ -9,7 +9,7 @@ import Skill from "./components/Skill.jsx";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="md:max-w-[85%] md:mx-auto">
       <Helmet>
         <title>Home | Rafis Web</title>
       </Helmet>
@@ -17,7 +17,7 @@ const App = () => {
         <Navbar />
       </section>
       <section className="h-[104px] lg:h-[116px] "></section>
-      <div className="xl:mx-20 space-y-2">
+      <div className=" space-y-2">
         <section>
           <Banner />
         </section>
