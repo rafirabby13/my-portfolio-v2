@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import img from "/rafi.png";
+import img from "/rafi.jpg";
 import "animate.css";
 import { motion } from "framer-motion";
 import Button from "./Button";
