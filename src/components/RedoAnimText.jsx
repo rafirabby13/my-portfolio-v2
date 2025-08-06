@@ -4,11 +4,19 @@ import { useEffect } from "react";
 export default function RedoAnimText({ delay }) {
   const textIndex = useMotionValue(0);
   const texts = [
-    "UI/UX Specialist",
-    "React Developer",
-    "Frontend Engineer",
-    "Web Craftsman",
-  ];
+  "UI/UX Specialist",
+  "React Developer",
+  "Frontend Engineer",
+  "Web Craftsman", 
+  "TypeScript Expert",
+  "Next.js Specialist",
+  "Performance Optimizer",
+  "Responsive Design Pro",
+  "API Integration Master",
+  "Component Library Builder",
+  "Mobile-First Developer",
+  "Accessibility Advocate"
+];
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
   const count = useMotionValue(0);

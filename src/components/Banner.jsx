@@ -9,9 +9,9 @@ const Banner = () => {
   return (
     <div
       id="banner"
-      className="grid md:grid-cols-2 items-center rounded-lg shadow-lg gap-6 sm:gap-8 pb-8 sm:pb-12 md:pb-20 "
+      className="flex justify-between  items-center rounded-lg shadow-lg gap-6 sm:gap-8 pb-8 sm:pb-12 md:pb-20 "
     >
-      <div className="space-y-4 md:space-y-8 text-center sm:text-left">
+      <div className="space-y-4 md:space-y-8 text-center sm:text-left w-full">
         <h1 className="text-3xl md:text-5xl xl:text-8xl font-bold text-[#E80F88] ">
           Rafi Ahmed
         </h1>
@@ -53,7 +53,7 @@ const Banner = () => {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
-        className="w-full  flex justify-center mb-8 lg:mb-0 conicc "
+        className="w-full  flex justify-end mb-8 lg:mb-0 conicc "
       >
         <div className="relative">
           {/* Background decoration */}
@@ -74,15 +74,7 @@ const Banner = () => {
         </div>
       </motion.div>
 
-      {/* <div className="flex justify-center ">
-        <motion.img
-          whileHover={{ scale: 1.1 }}
-          transition={{ type: "spring", stiffness: 300 }}
-          className="h-[250px] sm:h-[300px] md:h-[400px] w-full"
-          src={img}
-          alt="Profile"
-        />
-      </div> */}
+  
     </div>
   );
 };

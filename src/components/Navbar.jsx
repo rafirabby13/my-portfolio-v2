@@ -51,8 +51,8 @@ const Navbar = () => {
               {items}
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl font-bold  animate__fadeInTopLeft animate__animated animate__delay-2s animate__slow hidden md:flex">
-            <span className="">Rafi's</span> Portfolio
+          <a className=" text-3xl font-bold  animate__fadeInTopLeft animate__animated animate__delay-2s animate__slow hidden md:flex">
+            <span className="mr-2">Rafi's</span > Portfolio
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
