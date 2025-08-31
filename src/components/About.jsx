@@ -1,77 +1,122 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect } from "react";
+import { SiVoipdotms } from "react-icons/si";
 
 const About = () => {
   // About information in a timeline format
   const aboutDetails = [
     {
       title: "Who I Am",
-      value: "Rafi Ahmed, Web Developer",
-      details:
-        "I'm a passionate web developer from Bangladesh with a love for creating user-friendly, efficient, and visually appealing applications.",
+      value: "Rafi Ahmed, TypeScript Expert & Full-Stack Developer",
+      details: [
+        "3+ years full-stack developer from Bangladesh",
+        "Specialized in scalable, user-centric applications",
+        "Expert in frontend interfaces & backend systems",
+        "Focus on clean code & performance optimization"
+      ],
       icon: (
-        <svg
-          className="w-6 h-6 text-pink-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-          ></path>
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
         </svg>
       ),
     },
     {
       title: "My Journey",
-      value: "From Curiosity to Expertise",
-      details:
-        "My programming journey began with a curiosity about how websites work, sparking a passion for problem-solving and building digital solutions from scratch.",
+      value: "From Curiosity to Professional Excellence",
+      details: [
+        "Started with HTML/CSS during university",
+        "Weekend experiments evolved to deep passion",
+        "Transformed from beginner to seasoned developer",
+        "Now mentoring others in coding community"
+      ],
       icon: (
-        <svg
-          className="w-6 h-6 text-pink-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M13 10V3L4 14h7v7l9-11h-7z"
-          ></path>
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
         </svg>
       ),
     },
     {
-      title: "My Expertise",
-      value: "MERN Stack Developer",
-      details:
-        "Specializing in the MERN stack, I build feature-rich applications, from career counseling platforms to interactive cricket squad selectors, blending creativity with functionality.",
+      title: "Technical Expertise",
+      value: "MERN Stack & Modern Web Technologies",
+      details: [
+        "MERN stack: MongoDB, Express.js, React.js, Node.js",
+        "Advanced TypeScript integration",
+        "Next.js, Tailwind CSS, Firebase",
+        "Vercel, Netlify, AWS deployment",
+        "15+ production applications delivered"
+      ],
       icon: (
-        <svg
-          className="w-6 h-6 text-pink-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-          ></path>
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Problem-Solving Philosophy",
+      value: "User-Centric & Innovation-Driven Approach",
+      details: [
+        "Focus on real user needs & pain points",
+        "Clean, maintainable, scalable code",
+        "Responsive design for all devices",
+        "Performance & accessibility optimization",
+        "Continuous learning mindset"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Key Achievements",
+      value: "Delivered 15+ Production Applications",
+      details: [
+        "Career counseling platform: 500+ active users",
+        "Cricket team selector with real-time statistics",
+        "AI-powered help desk: ChatGPT/Gemini integration",
+        "E-commerce solutions: payment gateway integrations",
+        "100+ algorithmic problems solved (Codeforces)"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Current Focus",
+      value: "Advanced React Patterns & Cloud Architecture",
+      details: [
+        "Advanced React patterns & component architecture",
+        "Redux Toolkit & Context API state management",
+        "AWS cloud architecture & Docker containerization",
+        "OpenAI/Gemini AI web integration",
+        "PWA development & performance optimization"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Vision & Goals",
+      value: "Building the Future of Web Technology",
+      details: [
+        "Join dynamic teams for innovative projects",
+        "Leverage technical skills in growth environments",
+        "Lead development teams & architect large-scale apps",
+        "Mentor next generation developers",
+        "Build impactful applications for users"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
         </svg>
       ),
     },
   ];
-
   // Fade-in animation using IntersectionObserver
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -124,14 +169,12 @@ const About = () => {
           {aboutDetails.map((detail, index) => (
             <div
               key={index}
-              className={`animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-${
-                index * 200
-              } mb-16 relative`}
+              className={`animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-${index * 200
+                } mb-16 relative`}
             >
               <div
-                className={`md:flex items-center ${
-                  index % 2 === 0 ? "md:flex-row-reverse" : ""
-                }`}
+                className={`md:flex items-center ${index % 2 === 0 ? "md:flex-row-reverse" : ""
+                  }`}
               >
                 {/* Timeline dot */}
                 <div className="absolute left-8 md:left-1/2 -translate-x-4 md:-translate-x-2.5 w-5 h-5 rounded-full bg-[#E80F88] z-10 border-4 border-black shadow-[0_0_10px_rgba(232,15,136,0.6)]">
@@ -141,9 +184,8 @@ const About = () => {
                 {/* Content */}
                 <div className="md:w-1/2 pl-14 md:pl-0 md:px-8">
                   <div
-                    className={`bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-[#E80F88] transition-all duration-300 shadow-lg relative ${
-                      index % 2 === 0 ? "md:mr-6" : "md:ml-6"
-                    }`}
+                    className={`bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-[#E80F88] transition-all duration-300 shadow-lg relative ${index % 2 === 0 ? "md:mr-6" : "md:ml-6"
+                      }`}
                   >
                     <div className="flex items-start">
                       <div className="hidden md:flex md:items-center md:justify-center mr-4 w-12 h-12 rounded-full bg-gray-800">
@@ -157,7 +199,12 @@ const About = () => {
                         <p className="text-lg text-pink-400 font-medium">
                           {detail.value}
                         </p>
-                        <p className="text-gray-400 mt-3">{detail.details}</p>
+                        <ul>
+                          {
+                            detail.details.map((item, i) => <li className="flex items-center gap-2" key={i}><SiVoipdotms />{item}</li>)
+                          }
+
+                        </ul>
                       </div>
                     </div>
                   </div>

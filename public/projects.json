@@ -1,5 +1,29 @@
 [
   {
+    "id": 5,
+    "name": "Parcelo",
+    "image": "https://i.ibb.co.com/3mrTBRmf/Whats-App-Image-2025-08-31-at-01-46-04-4ef80196.jpg",
+    "stack": "React, Shadcn, Tailwind CSS, MongoDB, Express, mongoose",
+    "description": "A comprehensive, full-stack parcel delivery and tracking platform designed for modern logistics operations across Bangladesh. Built with React, TypeScript, and a robust backend architecture to handle everything from parcel booking to real-time delivery tracking.",
+    "liveLink": "https://parcel-delivery-system-frontend-iota.vercel.app/",
+    "details": "About Parcelo streamlines the entire parcel delivery lifecycle with separate interfaces for senders, receivers, delivery personnel, and administrators. The platform provides real-time tracking, automated pricing calculation, secure payment processing, and comprehensive delivery management tools",
+    "github": "https://github.com/rafirabby13/parcel-delivery-system-frontend",
+    "challenges": "Faced issues in implementing real-time updates for product availability and integrating secure payment methods. Handling different user roles dynamically was also a challenge.",
+    "futurePlans": "Planning to integrate AI-driven Parcel recommendations, enhance security for payments."
+  },
+  {
+    "id": 6,
+    "name": "AI-Scholar",
+    "image": "https://i.ibb.co.com/spH7XjKh/Whats-App-Image-2025-08-31-at-01-50-46-595fe43b.jpg",
+    "stack": "Next.js,NextAuth, Shadcn, Tailwind CSS, MongoDB, Express, mongoose",
+    "description": "AI Scholar is a full-stack, AI-powered Course Management System (CMS) engineered to elevate online education with personalized learning paths, smart content generation, dynamic analytics, and intuitive UI/UX. This client-side application serves as the user-facing interface for students, instructors, and admins to access, interact, and manage educational resources in an intelligent and engaging environment.",
+    "liveLink": "https://ai-scholar-xi.vercel.app/",
+    "details": "AI Scholar is a full-stack, AI-powered Course Management System (CMS) engineered to elevate online education with personalized learning paths, smart content generation, dynamic analytics, and intuitive UI/UX. This client-side application serves as the user-facing interface for students, instructors, and admins to access, interact, and manage educational resources in an intelligent and engaging environment.",
+    "github": "https://github.com/rafirabby13/ai-scholar-client",
+    "challenges": "Faced issues in implementing real-time updates for product availability and integrating secure payment methods. Handling different user roles dynamically was also a challenge.",
+    "futurePlans": "Planning to integrate advanced AI features like automated essay grading, personalized learning path optimization, real-time plagiarism detection, AI-powered discussion forums with smart moderation, voice-to-text note-taking, and gamification elements with achievement tracking. Additionally, exploring integration with video conferencing APIs for virtual classrooms and mobile app development for offline course access."
+  },
+  {
     "id": 1,
     "name": "MediMart",
     "image": "https://i.ibb.co.com/9mkyJr5y/Whats-App-Image-2025-02-05-at-10-50-38-42cb7ad5.jpg",

@@ -2,12 +2,11 @@ import { useEffect, useState, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { FaArrowRight, FaGithub, FaExternalLinkAlt, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import img from "../assets/icons8-projects-96.png";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
-  const [category, setCategory] = useState("all");
+  const [category, ] = useState("all");
   
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, threshold: 0.1 });
