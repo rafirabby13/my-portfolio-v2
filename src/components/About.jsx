@@ -105,7 +105,7 @@ const About = () => {
       details: [
         "Vercel for Next.js applications",
         "Netlify for static site hosting",
-        "AWS cloud services and EC2",
+        "Firebase Deployment",
         "Git/GitHub version control and CI/CD",
         "Performance monitoring and optimization"
       ],
@@ -122,7 +122,6 @@ const About = () => {
         "OpenAI API integration for intelligent features",
         "Gemini AI for conversational interfaces",
         "Payment gateway integration (Stripe, etc.)",
-        "Real-time features with Socket.io",
         "Progressive Web App (PWA) development"
       ],
       icon: (
@@ -167,8 +166,8 @@ const About = () => {
       title: "Key Achievements",
       value: "Delivered 15+ Production Applications",
       details: [
-        "Career counseling platform: 500+ active users",
-        "Cricket team selector with real-time statistics",
+        "Medimart e-commerce platform: Multi-vendor medicine marketplace",
+        "Parcelo delivery system: Real-time parcel tracking dashboard",
         "AI-powered help desk: ChatGPT/Gemini integration",
         "E-commerce solutions: payment gateway integrations",
         "100+ algorithmic problems solved (Codeforces)"
