@@ -35,15 +35,111 @@ const About = () => {
         </svg>
       ),
     },
+    // {
+    //   title: "Technical Expertise",
+    //   value: "MERN Stack & Modern Web Technologies",
+    //   details: [
+    //     "MERN stack: MongoDB, Express.js, React.js, Node.js",
+    //     "Advanced TypeScript integration",
+    //     "Next.js, Tailwind CSS, Firebase",
+    //     "Vercel, Netlify, AWS deployment",
+    //     "15+ production applications delivered"
+    //   ],
+    //   icon: (
+    //     <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+    //     </svg>
+    //   ),
+    // },
     {
-      title: "Technical Expertise",
-      value: "MERN Stack & Modern Web Technologies",
+      title: "Frontend Development",
+      value: "Modern UI/UX & Interactive Applications",
       details: [
-        "MERN stack: MongoDB, Express.js, React.js, Node.js",
-        "Advanced TypeScript integration",
-        "Next.js, Tailwind CSS, Firebase",
-        "Vercel, Netlify, AWS deployment",
-        "15+ production applications delivered"
+        "React.js with advanced hooks and patterns",
+        "Next.js for server-side rendering and optimization",
+        "TypeScript for type-safe development",
+        "Tailwind CSS for responsive design",
+        "HTML5, CSS3, JavaScript (ES6+)"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Backend Development",
+      value: "Scalable Server-Side Architecture",
+      details: [
+        "Node.js with Express.js framework",
+        "RESTful API design and development",
+        "JWT authentication and authorization",
+        "Middleware implementation and optimization",
+        "API documentation and testing"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Database Management",
+      value: "Data Storage & Optimization",
+      details: [
+        "MongoDB with Mongoose ODM",
+        "Database design and schema optimization",
+        "Aggregation pipelines and complex queries",
+        "Firebase Firestore for real-time data",
+        "PostgreSQL for relational data management"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Deployment & DevOps",
+      value: "Production-Ready Deployment",
+      details: [
+        "Vercel for Next.js applications",
+        "Netlify for static site hosting",
+        "AWS cloud services and EC2",
+        "Git/GitHub version control and CI/CD",
+        "Performance monitoring and optimization"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "AI & Modern Technologies",
+      value: "Cutting-Edge Integration",
+      details: [
+        "OpenAI API integration for intelligent features",
+        "Gemini AI for conversational interfaces",
+        "Payment gateway integration (Stripe, etc.)",
+        "Real-time features with Socket.io",
+        "Progressive Web App (PWA) development"
+      ],
+      icon: (
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Development Tools",
+      value: "Productivity & Code Quality",
+      details: [
+        "VS Code with advanced extensions",
+        "npm/yarn package management",
+        "ESLint and Prettier for code quality",
+        "Postman for API testing",
+        "Chrome DevTools for debugging"
       ],
       icon: (
         <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
