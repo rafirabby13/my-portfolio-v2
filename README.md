@@ -63,8 +63,8 @@ src/
 - Email: rafiahmedrabby282@gmail.com
 - Phone: +880 1894 356001
 - Location: Dhaka, Bangladesh
-- LinkedIn: Rafi Ahmed Rabby
-- GitHub: rafirabby13
+- LinkedIn: https://www.linkedin.com/in/rafi-ahmed-rabby-1669b52b3/
+- GitHub: https://github.com/rafirabby13
 ### Built with passion by Rafi Ahmed | TypeScript Expert & Full-Stack Developer
 
 
