@@ -3,10 +3,10 @@
 
 
 
-## https://portfolio-rafi.netlify.app/
 
 A modern, responsive portfolio website showcasing my skills as a TypeScript Expert and Full-Stack Developer. Built with React.js, featuring smooth animations, professional design, and optimal performance.
-
+##  Live Site
+### https://portfolio-rafi.netlify.app/
 ## About
 
 I'm Rafi Ahmed, a passionate full-stack developer from Bangladesh with 3+ years of experience in building scalable web applications. This portfolio demonstrates my expertise in modern web technologies and showcases my professional projects.
