@@ -20,6 +20,9 @@ const Navbar = () => {
       <li>
         <a href="#contact" className="hover:text-[#E80F88] transition-colors duration-300">Contact</a>
       </li>
+      <li>
+        <a href="#blog" className="hover:text-[#E80F88] transition-colors duration-300">Blog</a>
+      </li>
     </>
   );
 
@@ -60,8 +63,8 @@ const Navbar = () => {
             {items}
           </ul>
         </div>
-        <div className="navbar-end">
-        <Button text={'Download Resume'}></Button>
+        <div className="navbar-end hidded">
+        <Button text={'Resume'}></Button>
         </div>
       </div>
     </div>

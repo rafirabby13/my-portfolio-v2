@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar.jsx";
 import Projects from "./components/Projects.jsx";
 import Skill from "./components/Skill.jsx";
 import Footer from "./components/Footer.jsx";
+import Blog from "./components/Blog.jsx";
 
 const App = () => {
   return (
@@ -34,6 +35,9 @@ const App = () => {
           </section>
           <section>
             <Projects />
+          </section>
+          <section>
+            <Blog/>
           </section>
           <section>
             <Contact />
